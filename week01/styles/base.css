@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+
+}
+
+header {
+    background-color:#234e70;
+    color: white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0;
+   
+}
+
+nav {
+    background-color: #333;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+
+main h1 {
+    grid-column: 1 / -1; /* Spans both columns */
+    text-align: center;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+   
+}
+
+.card ul {
+    padding: 10px;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    background-color: #234e70;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card p {
+    padding: 15px;
+    line-height: 1.5;
+
+}
+
+
+.about-card {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    grid-template-areas:
+        "title title"
+        "text image"
+        "subtitle subtitle"
+        "text2 text2"
+        "image2 image2";
+    gap:15px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+
+.about-card h2 {
+    grid-area: title;
+    text-align: center;
+    background-color: #234e70;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.first-paragraph {
+    grid-area: text;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+}
+
+
+.profile-img {
+    grid-area: image;
+    border-radius: 5px;
+    padding-right: 10px;
+
+}
+
+.about-card h3 {
+    grid-area: subtitle;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.second-paragraph {
+    grid-area: text2;
+    padding: 0 15px 15px 15px;
+    line-height: 1.5;
+}
+
+
+.porto-alegre-img {
+    grid-area: image2;
+    width: 300px;
+    border-radius: 5px;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.caption {
+    grid-area: image2;
+    align-self: end;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+
+}
+
+#lastModified {
+    font-size: 0.9rem;
+    color: yellow;
+}

@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="This is the home page for Maina Neves Dante's WDD 131 - Dynamic Web Fundamentals class. It includes a header, navigation, main content area, aside, and footer.">
+    <meta author="Maina D.">
+    <title>WDD 131 - Dynamic Web Fundamentals - Maina</title>
+    <link rel="stylesheet" href="/week01/styles/base.css">
+    <script src="/week01/scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>hello world</h1>
+
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/main%C3%A3-dante-20b033144/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/15?lang=eng&id=p34#p34" target="_blank">Scripture</a></li>
+                <li><a href="https://github.com/mainadante/wdd131/tree/3cf905256b81f152a43ae08b17c4907b15c22882/week01" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Maina Dante</h1>
+
+        <section class="about-card">
+            <h2>About Me</h2>
+            <p class="first-paragraph">My name is Maina, I'm 34 years old, and married. I was born in Porto Alegre,Brazil and live in London. I'm currently pregnant with my first child, and I love studying programming!</p>
+            <img class="profile-img" src="/week01/images/maina-dante.jpg" alt="Maina Dante" width="150">
+            
+
+
+            <h3>Porto Alegre, Brazil</h3>
+            <p class="second-paragraph">Brazil is the largest country in South America, known for its rich culture, diverse landscapes, and vibrant traditions
+            like Carnival. It is home to the Amazon rainforest, vast natural regions, and many unique ecosystems that make it one of
+            the most biodiverse countries in the world. In the south of Brazil is the city of Porto Alegre, the capital of the state
+            of Rio Grande do Sul. Porto Alegre is known for its strong cultural heritage, European influences, and relaxed
+            lifestyle, with beautiful views along the Guaíba River and a deep appreciation for music, food, and local traditions.</p>
+
+            <img class="porto-alegre-img" src="/week01/images/porto alegre.webp" alt="Porto Alegre, Brazil" width="300">
+            <p class="caption">Porto Alegre, Brazil</p>
+
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <p>Here are some useful resources for web development:</p>
+            <ul>
+                <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.udemy.com/?srsltid=AfmBOoo5HQgxq9NT-mOGbStIMz0Qdabc8X2CXkhgsAQHdsr0D9G_9LdZ" target="_blank">Udemy</a></li>
+                <li><a href="https://www.lipsum.com/" target="_blank">Lorem Lipsum</a></li>
+               
+            </ul>   
+        </section>
+    </main>
+
+  
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Maina Dante | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
 
 </body>
+
 </html>
