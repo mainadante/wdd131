@@ -1,0 +1,16 @@
+@media screen and (min-width: 500px) {
+    /* CSS rules here */
+
+    header {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* gap: 1rem; */
+    }
+
+  
+}
