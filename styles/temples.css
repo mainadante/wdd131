@@ -22,7 +22,7 @@ main, footer {
 }
 
 header {
-    background-color: #13440ebf;
+    background-color: #4e744b;
     display: grid;
     gap: 1rem;
     /* border: 2px solid rgba(114, 133, 119, 0.915); */
@@ -79,7 +79,7 @@ figcaption {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #24b317bf;
+    background-color: #b9c8b8bf;
     /* border: 2px solid rgba(114, 133, 119, 0.915); */
     /* box-shadow: 0 0 30px #333; */
 }
