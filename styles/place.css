@@ -1,0 +1,139 @@
+h1 {
+    font-family: "Elms Sans", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #E4D329;
+    padding: 1rem;
+    color: #0D0B61;
+    margin: 1rem 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+
+.hero-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.data-card, .weather-card {
+    background-color: #6FCF97;
+    color: #294669;
+    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
+    justify-self: center;
+}
+
+h2 {
+    font-family: "Elms Sans", sans-serif;
+    color: #0D0B61;
+    margin: 0;
+}
+
+.data-card h2, .weather-heading {
+    background-color: #E4D329;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.weather-icon {
+    width: 25px;
+    height: 25px;
+    color: #294669
+}
+
+li {
+    color: #0D0B61;
+    font-family: "Elms Sans", sans-serif;
+    margin: 0.5rem 0;
+}
+
+.weather-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
+
+footer {
+    font-family: "Elms Sans", sans-serif;
+    text-align: center;
+    color: #0D0B61;
+    font-size: smaller;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #E4D329;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+#lastModified {
+    font-size: smaller;
+    color: #0D0B61;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .hero-text {
+        font-size: 3rem;
+        letter-spacing: 10px;
+        bottom: 20px;
+        padding: 1rem 2rem;
+    }
+
+    .data-card, .weather-card {
+        width: 350px;
+    }
+
+    .weather-heading::after {
+        content: "⛅";
+        font-size: 25px;
+        color: #294669;
+        margin-left: 10px;
+    }
+
+    .weather-icon {
+            display: none;
+    }
+
+
+
+}

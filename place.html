@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the country page for Maina Neves Dante's WDD 131 - Dynamic Web Fundamentals class. It includes information about">
+    <meta name="author" content="Maina Dante">
+    <title>Country Page</title>
+    <link rel="stylesheet" href="/styles/place.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="/scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Brazil</h1>
+         
+    </header>
+    
+    <main>
+
+        <div class="hero-container">
+
+            <picture class="hero-image">
+                <source srcset="images/large-hero-brazil-amazon.webp" media="(min-width: 1000px)">
+                <source srcset="images/medium-hero-brazil-amazon.webp" media="(min-width: 600px)">
+                <img src="images/small-hero-brazil-amazon.webp" alt="Amazon River in Brazil" width="500" height="235">
+            </picture>
+
+            <h2 class="hero-text">Amazon</h2>
+
+        </div>
+
+        <div class="cards-container">
+            <section class="data-card">
+                <h2>Data</h2>
+            
+                <ul>
+                    <li><strong>Area: </strong>8.516 million km²</li>
+                    <li><strong>Population: </strong>213.5 million</li>
+                    <li><strong>Capital: </strong>Brasília</li>
+                    <li><strong>Languages: </strong>Portuguese</li>
+                    <li><strong>Currency: </strong>Brazilian Real (BRL)</li>
+                    <li><strong>Time Zone: </strong>UTC-3 to UTC-5</li>
+                    <li><strong>Calling Code: </strong>+55</li>
+                    <li><strong>Internet TLD: </strong>.br</li>
+                </ul>
+            
+            </section>
+            
+            <section class="weather-card">
+            
+                <div class="weather-heading">
+                    <h2>Weather</h2>
+                    <img class="weather-icon" src="/images/cloud-sun-icon.svg" alt="Sunny Weather Icon">
+            
+                </div>
+            
+                <ul>
+                    <li><strong>Temperature: </strong>27°C</li>
+                    <li><strong>Conditions: </strong>Sunny</li>
+                    <li><strong>Wind: </strong>10 km/h</li>
+                    <li><strong>Wind Chill: </strong><span id="windChill">---</span></li>
+                </ul>
+            
+            </section>
+
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Maina Dante | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    
+</body>
+</html>
