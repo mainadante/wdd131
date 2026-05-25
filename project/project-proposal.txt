@@ -1,0 +1,10 @@
+W04 Project: Website Subject
+
+Subject:
+Travel Guide Website
+
+Content:
+This website will help users discover travel destinations in different countries around the world. It will include information about popular tourist attractions, recommended restaurants, hotels, local activities, and travel tips for visitors. The website will contain multiple pages with destination guides, image galleries, and a contact form. It will also include interactive JavaScript features such as destination filters, favorite places saved with localStorage, and dynamic content displays.
+
+Reason:
+I chose this subject because I love traveling and I travel often. Through my experiences, I have learned that different people look for different types of travel experiences depending on their interests and goals. I believe this website can help users discover the best travel destinations, tourist attractions, restaurants, and hotels according to their personal tastes and travel goals while also allowing me to demonstrate my web development skills.
