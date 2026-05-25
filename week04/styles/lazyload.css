@@ -1,0 +1,25 @@
+img {
+    display: block;
+}
+
+.pic-gallery img {
+    margin: 10px;
+    opacity: 0;
+    background-color: black;
+    animation: fadeFromBlack 10s ease-in forwards;
+    
+}
+
+/* animation definition */
+@keyframes fadeFromBlack {
+    0% {
+        opacity: 0;
+        filter: brightness(0);
+        /* makes it look black */
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+}

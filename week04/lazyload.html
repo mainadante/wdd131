@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazyloading Images Demo</title>
+    <link rel="stylesheet" href="/week04/styles/lazyload.css">
+    <script src="/week04/scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Lazyloading Images Demo</h1>
+        
+        <div class="pic-gallery">
+            <img class="fade-in" src="/week04/images/pic1.webp"
+                alt="Classic red brick facade of a residential building in London with spring blossoms" loading="lazy" width="400"
+                height="600">
+            <img class="fade-in" src="/week04/images/pic2.webp"
+                alt="Contrasting modern skyscraper and historic building under clear blue sky in London" loading="lazy" width="400"
+                height="600">
+            <img class="fade-in" src="/week04/images/pic3.webp"
+                alt="Detailed view of a traditional ornate building facade in London" loading="lazy" width="400" height="600">
+            <img class="fade-in" src="/week04/images/pic4.webp"
+                alt="An impressive view of the Shard skyscraper rising into the blue sky in London" loading="lazy" width="400"
+                height="600">
+            <img class="fade-in" src="/week04/images/pic5.webp" alt="Detailed view of ornate Victorian architecture in London"
+                loading="lazy" width="400" height="600">
+            <img class="fade-in" src="/week04/images/pic6.webp"
+                alt="View of London's iconic Gherkin building against a clear blue sky" loading="lazy" width="400" height="600">
+
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Maina Dante | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
