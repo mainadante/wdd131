@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Elms Sans", sans-serif;
+    
+}
+
+/* mobile **************************/
+
+
+header,
+main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+header {
+    background-color: #4e744b;
+    display: grid;
+    gap: 1rem;
+    /* border: 2px solid rgba(114, 133, 119, 0.915); */
+    /* box-shadow: 0 0 30px #333; */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+
+nav a:hover {
+    text-decoration: dashed;
+    background-color: #eee;
+    color: #000;
+}
+
+
+.album-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    
+}
+
+img {
+    gap: 1rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.875rem;
+
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #b9c8b8bf;
+    /* border: 2px solid rgba(114, 133, 119, 0.915); */
+    /* box-shadow: 0 0 30px #333; */
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* menu small view navigation */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.navigation li {
+    display: none;
+}
+
+.navigation.open li {
+    display: block;
+}
