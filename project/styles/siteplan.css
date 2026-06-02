@@ -1,0 +1,49 @@
+body {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Shadows Into Light", cursive;
+    color: #D94B1F;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+p, li {
+    font-family: "Elms Sans", sans-serif;
+    font-size: 1rem;
+}
+
+
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+
+.wireframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+section {
+    border-bottom: 1px solid #e5e5e5;
+}
