@@ -2,7 +2,6 @@
 
 :root {
     --primary: purple;
-    --primary-dark: #66228e;
     --text: #1f2937;
     --muted: #464a54;
     --white: #f4f6fb;
@@ -107,7 +106,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: var(--primary-dark);
+    background: var(--muted);
 }
 
 /* FOOTER */
