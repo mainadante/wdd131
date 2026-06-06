@@ -1,0 +1,28 @@
+@media (min-width: 700px) {
+
+    body {
+        font-size: 1.05rem;
+    }
+
+    .review-form {
+        padding: 2rem;
+    }
+
+    /* Better spacing on large screens */
+    fieldset {
+        margin-bottom: 1.6rem;
+    }
+
+    /* Submit button not full width on desktop */
+    input[type="submit"] {
+        width: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0.9rem 2.5rem;
+    }
+
+    /* Slightly nicer spacing for rating */
+    fieldset label {
+        gap: 0.7rem;
+    }
+}

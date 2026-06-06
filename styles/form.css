@@ -1,0 +1,121 @@
+
+
+:root {
+    --bg: #f4f6fb;
+    --card: #ffffff;
+    --primary: purple;
+    --primary-dark: #66228e;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #d1d5db;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+/* HEADER */
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* MAIN LAYOUT */
+main {
+    padding: 1rem;
+}
+
+/* FORM CARD */
+.review-form {
+    max-width: 600px;
+    margin: auto;
+    background: var(--card);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* FIELDSETS */
+fieldset {
+    border: none;
+    margin-bottom: 1.4rem;
+    padding: 0;
+}
+
+/* LABELS */
+label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+/* INPUTS */
+
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+
+/* TEXTAREA */
+textarea {
+    resize: vertical;
+}
+
+
+/* make stars slightly bigger */
+fieldset input[type="radio"] {
+    transform: scale(1.1);
+}
+
+/* BUTTON */
+input[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background: var(--primary-dark);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}

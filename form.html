@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a product review form page.">
+    <meta name="author" content="Maina Dante">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Product Review Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+
+        <form class="review-form" method="get" action="review.html">
+
+            <fieldset>
+                <label class="form-label" for="product">Product Name*</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product...</option>
+
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <label class="form-label">Overall Rating*</label>
+
+                <label for="star1">
+                    <input type="radio" id="star1" name="rating" value="1" required> ☆
+                </label>
+
+                <label for="star2">
+                    <input type="radio" id="star2" name="rating" value="2"> ☆☆
+                </label>
+
+                <label for="star3">
+                    <input type="radio" id="star3" name="rating" value="3"> ☆☆☆
+                </label>
+
+                <label for="star4">
+                    <input type="radio" id="star4" name="rating" value="4"> ☆☆☆☆
+                </label>
+
+                <label for="star5">
+                    <input type="radio" id="star5" name="rating" value="5"> ☆☆☆☆☆
+                </label>
+            </fieldset>
+
+
+            <fieldset>
+                <label class="form-label" for="installation-date">Date of Installation*</label>
+                <input type="date" id="installation-date" name="installation-date" required>
+            </fieldset>
+
+            
+            <fieldset>
+                <label class="form-label">Useful Features</label>
+
+                <label for="durability">
+                    <input type="checkbox" id="durability" name="features" value="durability">
+                    Durability
+                </label>
+
+                <label for="ease-of-use">
+                    <input type="checkbox" id="ease-of-use" name="features" value="ease-of-use">
+                    Ease of Use
+                </label>
+
+                <label for="performance">
+                    <input type="checkbox" id="performance" name="features" value="performance">
+                    Performance
+                </label>
+
+                <label for="design">
+                    <input type="checkbox" id="design" name="features" value="design">
+                    Design
+                </label>
+            </fieldset>
+
+            
+            <fieldset>
+                <label class="form-label" for="review">Written Review (Optional)</label>
+                <textarea id="review" name="review" rows="5"></textarea>
+            </fieldset>
+
+           
+            <fieldset>
+                <label class="form-label" for="username">Your Name (Optional)</label>
+                <input type="text" id="username" name="username">
+            </fieldset>
+
+           
+            <input type="submit" value="Submit Review">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Maina Watson | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
