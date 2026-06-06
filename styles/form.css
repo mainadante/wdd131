@@ -1,13 +1,11 @@
 
 
 :root {
-    --bg: #f4f6fb;
-    --card: #ffffff;
     --primary: purple;
     --primary-dark: #66228e;
     --text: #1f2937;
     --muted: #464a54;
-    --border: #d1d5db;
+    --white: #f4f6fb;
 }
 
 * {
@@ -17,7 +15,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background: var(--bg);
+    background: var(--white);
     color: var(--text);
     line-height: 1.5;
 }
@@ -25,7 +23,7 @@ body {
 /* HEADER */
 header {
     background: var(--primary);
-    color: white;
+    color: var(--white);
     text-align: center;
     padding: 1.5rem;
 }
@@ -39,7 +37,7 @@ main {
 .review-form {
     max-width: 600px;
     margin: auto;
-    background: var(--card);
+    background: var(--white);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -77,7 +75,7 @@ select,
 textarea {
     width: 100%;
     padding: 0.7rem;
-    border: 1px solid var(--border);
+    border: 1px solid var(--white);
     border-radius: 8px;
     font-size: 1rem;
     margin-top: 0.3rem;
