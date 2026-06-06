@@ -10,7 +10,7 @@ body {
     line-height: 1.5;
 }
 
-/* HEADER */
+
 header {
     background: #800080;
     color: #f4f6fb;
@@ -18,7 +18,7 @@ header {
     padding: 1.5rem;
 }
 
-/* MAIN LAYOUT */
+
 main {
     padding: 1rem;
 }
@@ -33,14 +33,14 @@ main {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* FIELDSETS */
+
 fieldset {
     border: none;
     margin-bottom: 1.4rem;
     padding: 0;
 }
 
-/* LABELS */
+
 label {
     display: block;
     font-size: 0.95rem;
@@ -51,7 +51,6 @@ label {
     font-weight: 700;
 }
 
-/* INPUTS */
 
 input,
 select,
@@ -72,16 +71,11 @@ textarea {
 }
 
 
-/* TEXTAREA */
 textarea {
     resize: vertical;
 }
 
 
-/* make stars slightly bigger */
-fieldset input[type="radio"] {
-    transform: scale(1.1);
-}
 
 /* BUTTON */
 input[type="submit"] {
@@ -100,7 +94,7 @@ input[type="submit"]:hover {
     background: #464a54;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 1rem;

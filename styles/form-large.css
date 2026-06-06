@@ -8,7 +8,6 @@
         padding: 2rem;
     }
 
-    /* Better spacing on large screens */
     fieldset {
         margin-bottom: 1.6rem;
     }
@@ -21,7 +20,7 @@
         padding: 0.9rem 2.5rem;
     }
 
-    /* Slightly nicer spacing for rating */
+
     fieldset label {
         gap: 0.7rem;
     }

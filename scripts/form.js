@@ -44,3 +44,27 @@ products.forEach(product => {
     option.textContent = product.name;
     productSelect.appendChild(option);
 });
+
+
+// Review counter using localStorage
+document.addEventListener("DOMContentLoaded", () => {
+    // Get current count from localStorage
+    let reviewCount = localStorage.getItem("reviewCount");
+
+    // If nothing exists yet, start at 0
+    if (!reviewCount) {
+        reviewCount = 0;
+    }
+
+    // Convert to number and increment
+    reviewCount = Number(reviewCount) + 1;
+
+    // Save back to localStorage
+    localStorage.setItem("reviewCount", reviewCount);
+
+    // Optional: display it on the page (if you want)
+    const counterDisplay = document.getElementById("reviewCounter");
+    if (counterDisplay) {
+        counterDisplay.textContent = reviewCount;
+    }
+});
