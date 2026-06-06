@@ -1,12 +1,4 @@
 
-
-:root {
-    --primary: purple;
-    --text: #1f2937;
-    --muted: #464a54;
-    --white: #f4f6fb;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -14,15 +6,15 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background: var(--white);
-    color: var(--text);
+    background: #f4f6fb;
+    color: #1f2937;
     line-height: 1.5;
 }
 
 /* HEADER */
 header {
-    background: var(--primary);
-    color: var(--white);
+    background: #800080;
+    color: #f4f6fb;
     text-align: center;
     padding: 1.5rem;
 }
@@ -36,7 +28,7 @@ main {
 .review-form {
     max-width: 600px;
     margin: auto;
-    background: var(--white);
+    background: #f4f6fb;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -74,7 +66,7 @@ select,
 textarea {
     width: 100%;
     padding: 0.7rem;
-    border: 1px solid var(--white);
+    border: 1px solid #d1d5db;
     border-radius: 8px;
     font-size: 1rem;
     margin-top: 0.3rem;
@@ -96,8 +88,8 @@ fieldset input[type="radio"] {
 input[type="submit"] {
     width: 100%;
     padding: 0.9rem;
-    background: var(--primary);
-    color: white;
+    background: #800080;
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -106,7 +98,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: var(--muted);
+    background: #464a54;
 }
 
 /* FOOTER */
@@ -114,5 +106,5 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    color: var(--muted);
+    color: #464a54;
 }
